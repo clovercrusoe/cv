@@ -1,0 +1,89 @@
+/****************************CSS TAGS*************************************/
+body {
+  background-color: #ffd460;
+  color: #0a043c;
+  columns:1;
+
+  margin: 0 20%;
+
+}
+
+hr {
+  border-color: #f07b3f;
+  border-style: dotted none none;
+  border-width: 8px;
+  width: 50%;
+}
+
+h1 {
+  font-size: 50px;
+  text-shadow: 5px 5px 2px #f07b3f;
+  color: #2d4059;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+  background-color: #ea5455;
+  color: #2d4059;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+
+td {
+  font-size: 20px;
+}
+
+
+/****************************CSS CLASS*************************************/
+.footer {
+  text-align: center;
+}
+
+.page-title {
+  text-shadow: 5px 5px 2px #f07b3f;
+}
+
+.profile-pic {
+  margin-top: 50px;
+  border-style:inset;
+  border-width:8px;
+  box-shadow: 5px 5px 10px #2d4059;
+    border-radius:100px;
+    border-color: #f07b3f;
+}
+
+.hover-img {
+  border-radius:10%;
+  background-color: yellow;
+
+  margin: 10px 10px;
+  float: left;
+  /*display: inline-block; */
+}
+
+.hover-img:hover {
+  background-color: red;
+
+}
+
+.in-table {
+  width: 100%;
+}
